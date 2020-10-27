@@ -53,29 +53,29 @@
         </g-row>
     </div>
 
-    <div style="border: 1px solid black;">
+    <div class="box">
         <g-row gutter="20">
-            <g-col>1</g-col>
-            <g-col>2</g-col>
+            <g-col><div class="demo">1</div></g-col>
+            <g-col><div class="demo">2</div></g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col>1</g-col>
-            <g-col>2</g-col>
-            <g-col>3</g-col>
+            <g-col><div class="demo">1</div></g-col>
+            <g-col><div class="demo">2</div></g-col>
+            <g-col><div class="demo">3</div></g-col>
         </g-row>
         <g-row gutter="20">
-            <g-col>1</g-col>
-            <g-col>2</g-col>
-            <g-col>3</g-col>
-            <g-col>4</g-col>
+            <g-col><div class="demo">1</div></g-col>
+            <g-col><div class="demo">2</div></g-col>
+            <g-col><div class="demo">3</div></g-col>
+            <g-col><div class="demo">4</div></g-col>
         </g-row>
         <g-row>
-            <g-col span="2">1</g-col>
-            <g-col span="20" offset="2">2</g-col>
+            <g-col span="2"><div class="demo">1</div></g-col>
+            <g-col span="20" offset="2"><div class="demo">2</div></g-col>
         </g-row>
         <g-row>
-            <g-col span="4">1</g-col>
-            <g-col span="20">2</g-col>
+            <g-col span="4"><div class="demo">1</div></g-col>
+            <g-col span="20"><div class="demo">2</div></g-col>
         </g-row>
     </div>
 
@@ -93,7 +93,7 @@
         <p>{{ message }}</p>
         <button @click="message += '1'">+1</button>
     </div>
-    <div style="margin: 20px;">
+    <div class="box">
         <g-button :loading="loading1" @click="loading1 = !loading1">
             按钮
         </g-button>
